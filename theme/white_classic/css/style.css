@@ -1,0 +1,295 @@
+:root{
+    --color1: #444444;
+    --color2: #EF8354;
+    --color3: #333533;
+    --color4: #fa9c74;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    color: var(--color2) !important;
+    background-color: var(--color3);
+}
+
+.bg-theme{
+    background-color: var(--color1);
+}
+.cover-wedding-invitation{
+    margin-top: 1rem;
+}
+.qrcode p, .table{
+    color: var(--color1);
+}
+.cover-title{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    color: var(--color2);
+}
+.save-the-date{
+    margin-top: 3.7rem;
+}
+.save-the-date img{
+    height: 150px;
+}
+.cover-to{
+    margin-top: 1rem;
+}
+.qrcode-info{
+    padding-bottom: 30px;
+}
+.button-open,.qrcode{
+    margin-top: 2rem;
+}
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+.border-theme{
+    border: 5px solid white;
+}
+.main-bg-color{
+    background-color: white;
+}
+.space-100{
+    height: 200px;
+}
+.main-bg{
+    background-image:url('/theme/white_classic/img/demo2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.content-bg{
+    background:url('/theme/white_classic/img/demo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.content-bg:after {
+    content: "";
+    position: absolute;
+    background: #242423;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    z-index: 1;
+}
+.content-bg > * {
+    z-index: 2;
+}
+.card.card-custom {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    border: 0;
+}
+.main-content-bg{
+    background:url('/theme/white_classic/img/top.png'),url('/theme/white_classic/img/bottom.png');
+    background-position: top center,bottom center;
+    background-repeat: no-repeat,no-repeat;
+    background-size:103%,105%;
+}
+.cover-content{
+    margin: -50px;
+    padding-top: 11rem;
+    padding-bottom: 3rem;
+    background-image: url('/theme/white_classic/img/cover.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.overflow-hide{
+    overflow: hidden;
+}
+.color-theme{
+    color: var(--color2);
+}
+.color-accent{
+    color: var(--color1);
+}
+.color-black{
+    color: #000;
+}
+.main-img .main-img-cover{
+    /* position: absolute; */
+    padding: 15px;
+}
+.main-img-decoration{
+    position: absolute;
+}
+.main-date{
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+}
+.label-countdown{
+    background-color: var(--color2);
+    color: #fff;
+    padding: 15px;
+    margin: 2px;
+    font-size: 14px;
+}
+#clock div{
+    display: inline-block;
+}
+.btn-theme{
+    background-color: var(--color2);
+    border-color: var(--color2);
+    color: white;
+}
+.btn-theme i{
+    color: #fff;
+}
+
+.btn-theme:hover{
+    background-color: var(--color4);
+    border-color: var(--color4);
+    color: #fff;
+}
+#backsoundModal iframe{
+    width: 100% !important;
+}
+.btn-icon-theme i{
+    color: var(--color1);
+}
+.send-gift-bg{
+    background-image: url('/theme/white_classic/img/send_gift.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 200px;
+}
+.timeline.timeline-4 .timeline-items .timeline-item .timeline-content {
+    background: var(--color2);;
+}
+.timeline.timeline-4.timeline-justified .timeline-items .timeline-item:after {
+    border-right: solid 10px var(--color2);
+}
+#bottom-navigation {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.scrolltop {
+    bottom: 90px;
+}
+.btn.btn-hover-theme:not(:disabled):not(.disabled):active:not(.btn-text), .btn.btn-hover-theme:not(:disabled):not(.disabled).active, .show > .btn.btn-hover-theme.dropdown-toggle, .show .btn.btn-hover-theme.btn-dropdown {
+    color: #FFFFFF !important;
+    background-color: var(--color2) !important;
+    border-color: var(--color2) !important;
+}
+.btn.btn-light-theme {
+    color: white;
+    background-color: var(--color4);
+    border-color: transparent;
+}
+.btn.btn-light-theme i{
+    color: white;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: var(--color4);
+}
+@media only screen and (max-width: 720px){
+    .cover-title{
+        font-size: 2.7rem;
+    }
+    .save-the-date img{
+        height: 200px;
+    }
+    .save-the-date{
+        margin-top: 2.5rem;
+    }
+    .cover-to{
+        margin-top: 1rem;
+    }
+    .qrcode-info{
+        padding: 0px 30px 30px 30px;
+    }
+    .main-img img {
+        margin-top: 2rem;
+        width: 100%;
+        max-width: 150px;
+        height: 150px;
+    }
+    .symbol-sm-150 img {
+        width: 100%;
+        max-width: 150px;
+        height: 150px;
+    }
+    .symbol-sm-100 img {
+        width: 100%;
+        max-width: 100px;
+        height: 100px;
+    }
+    .scrolltop {
+        bottom: 90px;
+    }
+    .decor-bg{
+        background-image:   url('/theme/white_classic/img/bl.png'),
+                            url('/theme/white_classic/img/br.png'),
+                            url('/theme/white_classic/img/tl.png'),
+                            url('/theme/white_classic/img/tr.png');
+        background-position: bottom left, bottom right, top left, top right;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-size: 120px, 120px, 120px, 120px;
+        /* margin: -2rem; */
+    }
+}
+
+
+@media only screen and (max-width: 360px){
+    .cover-content{
+        padding-top: 7rem;
+    }
+    .cover-title{
+        font-size: 2.2rem;
+    }
+    .save-the-date img{
+        height: 80px;
+    }
+    .save-the-date{
+        margin-top: 1rem;
+    }
+    .cover-to{
+        margin-top: 1rem;
+    }
+    .button-open, .qrcode{
+        margin-top: 1rem;
+    }
+    
+    .pt-30{
+        padding-top: 5rem !important;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .cover-content{
+        padding-top: 7rem;
+    }
+    .cover-title{
+        font-size: 2rem;
+    }
+    .save-the-date img{
+        height: 75px;
+    }
+    .save-the-date{
+        margin-top: 1rem;
+    }
+    .cover-to{
+        margin-top: 1rem;
+    }
+    .button-open, .qrcode{
+        margin-top: 1rem;
+    }
+    .qrcode-info{
+        padding: 0px 30px 30px 30px;
+    }
+    .symbol-xs-100 img {
+        width: 100%;
+        max-width: 100px;
+        height: 100px;
+    }
+}

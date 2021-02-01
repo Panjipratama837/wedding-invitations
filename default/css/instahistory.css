@@ -1,0 +1,46 @@
+.igcol {
+    position: relative;
+    display: block;
+    padding: 5px;
+    width: 33.3333%;
+    float: left;
+}
+
+.igcol .iginfo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 184px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: .5rem;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    }
+
+.igcol:hover .iginfo {
+    opacity: 1;
+    visibility: visible;
+    }
+#feed img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+#feed:after {
+    display: block;
+    content: '';
+    clear: both;
+}

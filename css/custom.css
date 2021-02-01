@@ -1,0 +1,7 @@
+.bootstrap-timepicker-widget table td > a {
+    display: contents;
+}
+.currency{
+    font-family: 'Roboto Mono', monospace;
+    text-align: end;
+}
